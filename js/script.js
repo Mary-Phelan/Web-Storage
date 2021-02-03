@@ -196,12 +196,6 @@ function input(event) {
     console.log("Gamer Input :" + gamerInput.action);
 }
 
-function splitFunction() {
-    var url = document.location.href;
-    var result = pageURL.split("=");
-    document.getElementById("gamerTag").innerHTML = "Welcome" + result[1];
-  }
-
 
 // When button is clicked boom appears
 function buttonOnClickEvent() {
